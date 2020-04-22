@@ -157,4 +157,16 @@ public class attendanceCandidateclient {
 		this.updated_date = updated_date;
 	}
 
+	@Override
+	public String toString() {
+		return "attendanceCandidateclient [atten_id=" + atten_id + ", client_id=" + client_id + ", candidate_id="
+				+ candidate_id + ", atten_from_dt=" + atten_from_dt + ", atten_to_dt=" + atten_to_dt
+				+ ", atten_mon_hrs=" + atten_mon_hrs + ", atten_tues_hrs=" + atten_tues_hrs + ", atten_wed_hrs="
+				+ atten_wed_hrs + ", atten_thurs_hrs=" + atten_thurs_hrs + ", atten_fri_hrs=" + atten_fri_hrs
+				+ ", atten_sat_hrs=" + atten_sat_hrs + ", atten_sun_hrs=" + atten_sun_hrs + ", submitted_by="
+				+ submitted_by + ", submitted_date=" + submitted_date + ", updated_by=" + updated_by + ", updated_date="
+				+ updated_date + "]";
+	}
+	
+
 }

@@ -13,6 +13,8 @@ public class leaveType {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int leave_type_id;
+	private String leave_short_desc;
+	private String leave_desc;
 
 	public int getLeave_type_id() {
 		return leave_type_id;
@@ -38,7 +40,12 @@ public class leaveType {
 		this.leave_desc = leave_desc;
 	}
 
-	private String leave_short_desc;
-	private String leave_desc;
+	@Override
+	public String toString() {
+		return "leaveType [leave_type_id=" + leave_type_id + ", leave_short_desc=" + leave_short_desc + ", leave_desc="
+				+ leave_desc + "]";
+	}
+
+	
 
 }

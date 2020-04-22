@@ -120,4 +120,14 @@ public class leaveCandidateclient {
 	public void setUpdated_date(String updated_date) {
 		this.updated_date = updated_date;
 	}
+
+	@Override
+	public String toString() {
+		return "leaveCandidateclient [leave_id=" + leave_id + ", client_id=" + client_id + ", candidate_id="
+				+ candidate_id + ", leave_type_id=" + leave_type_id + ", leave_from_dt=" + leave_from_dt
+				+ ", leave_to_dt=" + leave_to_dt + ", leave_reason=" + leave_reason + ", leave_hours=" + leave_hours
+				+ ", submitted_by=" + submitted_by + ", submitted_date=" + submitted_date + ", updated_by=" + updated_by
+				+ ", updated_date=" + updated_date + "]";
+	}
+	
 }
