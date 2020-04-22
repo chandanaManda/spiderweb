@@ -18,7 +18,7 @@ public class attendanceCandidateclient {
 	private String atten_from_dt;
 	private String atten_to_dt;
 	private int atten_mon_hrs;
-	private int atten_tues_hrs;
+	private int atten_tue_hrs;
 	private int atten_wed_hrs;
 	private int atten_thurs_hrs;
 	private int atten_fri_hrs;
@@ -77,12 +77,12 @@ public class attendanceCandidateclient {
 		this.atten_mon_hrs = atten_mon_hrs;
 	}
 
-	public int getAtten_tues_hrs() {
-		return atten_tues_hrs;
+	public int getAtten_tue_hrs() {
+		return atten_tue_hrs;
 	}
 
-	public void setAtten_tues_hrs(int atten_tues_hrs) {
-		this.atten_tues_hrs = atten_tues_hrs;
+	public void setAtten_tues_hrs(int atten_tue_hrs) {
+		this.atten_tue_hrs = atten_tue_hrs;
 	}
 
 	public int getAtten_wed_hrs() {
